@@ -53,13 +53,23 @@ p{
     padding: 0 5px 20px;
 }
 
-
-
 .attribution{ 
     font-size: 16px; text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
     font-weight: 500;
+}
+
+@media(max-width: 360px){
+    section.container{
+        width: 96vw;
+    }
+}
+@media(max-width: 280){
+    section.container{
+        padding: 10px;
+    }
 }
